@@ -11,8 +11,8 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { Models } from "node-appwrite"
-import { UserIcon } from "../user-icon"
-import { Button } from "../ui/button"
+import { UserIcon } from "../../user-icon"
+import { Button } from "../../ui/button"
 
 interface UserProps{
   user: Models.User<Models.Preferences>
